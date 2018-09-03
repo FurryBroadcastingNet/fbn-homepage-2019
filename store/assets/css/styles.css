@@ -1,0 +1,299 @@
+/*--------------------*/
+/* VIDEO */
+/*--------------------*/
+
+#mu-video {
+	background-image: url("assets/images/IMG_20170805_112526.jpg");
+	background-attachment: fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	display: inline;
+	float: left;
+	width: 100%;
+    height: 100%;
+}
+
+.mu-video-overlay {
+	display: inline;
+	float: left;
+	opacity: 0.85;
+	width: 100%;
+}
+
+.mu-video-area {
+	display: inline;
+	float: left;
+	padding: 200px 0;
+	text-align: center;
+	width: 100%;
+}
+
+.mu-video-area h2 {
+	color: #fff;
+}
+
+.mu-video-content {
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-video-play-btn,
+.mu-video-close-btn {
+	color: #fff;
+	font-size: 22px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	width: 60px;
+	display: inline-block;
+	height: 60px;
+	line-height: 55px;
+	text-align: center;
+	margin-top: 100px;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.mu-video-play-btn:hover,
+.mu-video-play-btn:focus {
+	color: #fff;
+	-webkit-transform: scale(1.2);
+	        transform: scale(1.2);
+}
+
+.mu-video-close-btn {
+	border-radius: 50%;
+	color: #fff;
+	font-size: 18px;
+	border: 2px solid #fff;
+	position: absolute;
+	top: 0;
+	right: 15%;
+	display: inline-block;
+	height: 50px;
+	line-height: 45px;
+	text-align: center;
+	margin-top: 100px;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	width: 50px;
+}
+
+.mu-video-close-btn:hover,
+.mu-video-close-btn:focus {
+	color: #fff;
+	-webkit-transform: scale(1.2);
+	        transform: scale(1.2);
+}
+
+.mu-video-iframe-area {
+	background-color: rgba(0,0,0,0.84);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	padding: 12% 0;
+	text-align: center;
+	z-index: 9999;
+	display: none;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.mu-video-iframe-display {
+	display: block;
+}
+
+.mu-video-iframe-area iframe {
+
+}
+
+/*--------------------*/
+/* VIDEO */
+/*--------------------*/
+
+
+#mu-video {
+	background-image: url("assets/images/IMG_20170805_112526.jpg");
+	background-attachment: fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-video-overlay {
+	display: inline;
+	float: left;
+	opacity: 0.85;
+	width: 100%;
+}
+
+.mu-video-area {
+	display: inline;
+	float: left;
+	padding: 200px 0;
+	text-align: center;
+	width: 100%;
+}
+
+.mu-video-area h2 {
+	color: #fff;
+}
+
+.mu-video-content {
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-video-play-btn,
+.mu-video-close-btn {
+	color: #fff;
+	font-size: 22px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	width: 60px;
+	display: inline-block;
+	height: 60px;
+	line-height: 55px;
+	text-align: center;
+	margin-top: 100px;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.mu-video-play-btn:hover,
+.mu-video-play-btn:focus {
+	color: #fff;
+	-webkit-transform: scale(1.2);
+	        transform: scale(1.2);
+}
+
+.mu-video-close-btn {
+	border-radius: 50%;
+	color: #fff;
+	font-size: 18px;
+	border: 2px solid #fff;
+	position: absolute;
+	top: 0;
+	right: 15%;
+	display: inline-block;
+	height: 50px;
+	line-height: 45px;
+	text-align: center;
+	margin-top: 100px;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	width: 50px;
+}
+
+.mu-video-close-btn:hover,
+.mu-video-close-btn:focus {
+	color: #fff;
+	-webkit-transform: scale(1.2);
+	        transform: scale(1.2);
+}
+
+.mu-video-iframe-area {
+	background-color: rgba(0,0,0,0.84);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	padding: 12% 0;
+	text-align: center;
+	z-index: 9999;
+	display: none;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.mu-video-iframe-display {
+	display: block;
+}
+
+.mu-video-iframe-area iframe {
+
+}
+
+/*
+
+*/
+@viewport {
+  width: device-width;
+}
+
+.video-js .vjs-tech {
+	max-width: 100%;
+}
+
+body {
+	text-align: center;
+}
+
+@media only screen 
+and (min-width : 321px)
+and (max-width : 1220px) {
+	body > div {
+		width: 100%;
+	}
+	body > div > div {
+		width: 100%;
+	}
+	
+	.video-js .vjs-tech {
+		max-height: 400px;
+	}
+	
+	.player-dimensions {
+		width: 100%;
+		height: 400px;
+	}
+	
+	.video-js {
+		text-align: center;
+		
+	}
+	
+	.video-js .vjs-big-play-button {
+		margin-top: 15%;
+		margin-left: 45%;
+	}
+	
+	#mu-hero {
+		position: absolute;
+	}
+	
+	#mu-hero .navbar-default .navbar-brand {
+		font-size: .9em;
+		padding: 5px;
+		height: auto;
+	}
+	
+	.mu-navbar .mu-menu li a {
+		font-size: .7em;
+		padding: 5px;
+	}
+	
+	#mu-hero .navbar-default {
+		min-height: 0;
+	}
+}
+
+

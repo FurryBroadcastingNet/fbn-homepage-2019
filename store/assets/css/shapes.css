@@ -1,0 +1,13 @@
+.square {
+	height: 300px;
+    width: 270px;
+    padding: 0 25px;
+}
+.square:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-top: 100px solid;
+    border-left: 100px solid;
+    border-right: 100px solid;
+}
